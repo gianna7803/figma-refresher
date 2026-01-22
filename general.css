@@ -1,0 +1,464 @@
+.navbar {
+  background-color: #ffffff;
+}
+
+.navbar-logo {
+  width: 250px;
+}
+
+.navbar-nav {
+  border-top: 2px solid #BC015C;
+  padding: 10px 0;
+}
+
+.nav-link {
+  color: #BC015C !important;
+  font-family: "century-gothic", sans-serif;
+  font-weight: 600;
+  font-size: 1.1em;
+  padding: 8px 40px !important;
+}
+
+.nav-link:hover {
+  color: #472D71 !important;
+}
+
+/* Hamburger menu icon styling */
+.navbar-toggler {
+  border: none;
+  padding: 0;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23BC015C' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  width: 35px;
+  height: 35px;
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23472D71' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Dropdown Menu Styling */
+.dropdown-menu {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 16px 24px;
+  min-width: 220px;
+}
+
+.dropdown-header {
+  color: #BC015C;
+  font-family: "century-gothic", sans-serif;
+  font-weight: 700;
+  font-size: 1.1em;
+  padding: 8px 0 12px 0;
+}
+
+.dropdown-item {
+  color: #BC015C;
+  font-family: "century-gothic", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  padding: 12px 0;
+  background-color: transparent;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  background-color: transparent;
+  color: #472D71;
+}
+
+.dropdown-divider {
+  border-top: 1px solid #e0e0e0;
+  margin: 0;
+  opacity: 1;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-subitem {
+  padding-left: 32px;
+  padding-top: 4px;
+  font-size: 0.9em;
+  position: relative;
+}
+
+.dropdown-subitem::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 20px;
+  height: 2px;
+  background-color: #e0e0e0;
+}
+
+/* Typography */
+h1 {
+  font-family: "century-gothic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "century-gothic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #BC015C;
+}
+
+h3 {
+  font-family: "century-gothic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #292956;
+}
+
+p {
+  font-family: Montserrat, sans-serif;
+  font-size: 1em;
+}
+
+/* Jumbotron / Hero */
+.jumbotron {
+  background-image: url('../images/hero.png');
+  background-size: cover;
+  background-position: center 20%;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 16px;
+  padding-bottom: 50px;
+  text-shadow:
+    2px 2px 8px rgba(0, 0, 0, 0.8),
+    0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron .btn {
+  text-shadow: none;
+  padding: 12px 30px !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #BC015C;
+  border-color: #BC015C;
+  font-family: "century-gothic", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1em;
+  padding: 12px 30px;
+}
+
+.btn-primary:hover {
+  background-color: #472D71;
+  border-color: #472D71;
+}
+
+.btn-primary:active {
+  background-color: #472D71 !important;
+  border-color: #472D71 !important;
+}
+
+/* About Section */
+.about-text {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Circle Cards */
+.circle-card {
+  background-color: rgba(248, 248, 248, 0.85);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.circle-card img {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.circle-card .btn {
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Festival Highlights Bottom Row */
+.bottom img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* News Section (Homepage) */
+.news-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.news-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.news-card p {
+  flex-grow: 1;
+  margin-bottom: 16px;
+}
+
+.news-card .btn {
+  align-self: center;
+  margin: 0 auto;
+}
+
+/* Article Page Styles */
+.article-title {
+  font-size: 2.5em;
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+
+.article-byline {
+  color: #666666;
+  font-family: "century-gothic", sans-serif;
+  font-size: 1em;
+  margin-bottom: 24px;
+}
+
+.article-hero {
+  width: 100%;
+}
+
+.photo-credit {
+  color: #888888;
+  font-size: 0.9em;
+  margin-top: 8px;
+}
+
+.article-body p {
+  line-height: 1.8;
+  margin-bottom: 24px;
+}
+
+.article-title-secondary {
+  margin-bottom: 16px;
+}
+
+/* More Like This Section */
+.more-like-this-title {
+  font-family: "century-gothic", sans-serif;
+  font-weight: 700;
+  color: #292956;
+  font-size: 1.5em;
+  margin-bottom: 24px;
+}
+
+.related-article {
+  text-decoration: none;
+  display: block;
+}
+
+.related-article img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.related-article h4 {
+  font-family: "century-gothic", sans-serif;
+  font-weight: 700;
+  color: #292956;
+  font-size: 1em;
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+.related-article:hover h4 {
+  color: #BC015C;
+  text-decoration: none;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  padding-left: 0;
+}
+
+.sidebar-title {
+  font-family: "century-gothic", sans-serif;
+  font-weight: 700;
+  color: #292956;
+  font-size: 1.5em;
+  margin-bottom: 24px;
+  margin-left: 40px;
+  border-left: 3px solid #BC015C;
+  padding-left: 16px;
+}
+
+.sidebar-article {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 32px;
+  margin-left: 40px;
+}
+
+.sidebar-article img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+.sidebar-article h4 {
+  font-family: "century-gothic", sans-serif;
+  font-weight: 700;
+  color: #292956;
+  font-size: 0.95em;
+  text-decoration: none;
+}
+
+.sidebar-article:hover h4 {
+  color: #BC015C;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  color: #ffffff;
+  font-family: "century-gothic", sans-serif !important;
+  font-size: 1em !important;
+}
+
+.f-links {
+  background-color: #3D3D6B;
+  padding: 15px 0;
+}
+
+.copy {
+  background-color: rgba(41, 41, 86, 0.9);
+  padding: 15px 0;
+}
+
+.main {
+  background-color: #292956;
+  padding: 40px 0;
+}
+
+.footer-logo {
+  max-width: 250px;
+}
+
+.footer-nav {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1em;
+  text-decoration: none;
+  padding: 0 20px;
+  white-space: nowrap;
+}
+
+.footer-nav:hover {
+  text-decoration: underline;
+}
+
+.sign {
+  font-weight: 600;
+}
+
+.email-form {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+/* Desktop: logo centered above nav */
+@media (min-width: 992px) {
+  .navbar {
+    flex-direction: column;
+  }
+  
+  .navbar > .container {
+    flex-direction: column;
+  }
+  
+  .navbar-brand {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+    padding-left: 0;
+    margin-top: 32px;
+  }
+  
+  .sidebar-title {
+    margin-left: 0;
+    border-left: 3px solid #BC015C;
+    border-top: none;
+    padding-left: 16px;
+    padding-top: 0;
+  }
+  
+  .sidebar-article {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .f-links .col-md {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 0;
+  }
+  
+  .footer-nav {
+    padding: 5px 0;
+  }
+}
