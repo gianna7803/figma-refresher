@@ -1,2 +1,2 @@
 # figma-refresher
-My Figma refresher!
+My Syracuse International Film Festival site re-do!
